@@ -1,0 +1,10 @@
+*
+
+!.gitignore
+!README.md
+
+!.config
+.config/*
+
+!.config/nvim**
+
