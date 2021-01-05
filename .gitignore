@@ -7,10 +7,10 @@
 .config/*
 
 !.config/nvim**
+!.config/kitty**
 
 !.tmux.conf
 
 !.zshrc
 
 !.Xresources
-!.Xdefaults
