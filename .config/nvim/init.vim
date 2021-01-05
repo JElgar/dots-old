@@ -19,6 +19,7 @@ Plug 'honza/vim-snippets'
 " Colour Scheme
 Plug 'morhetz/gruvbox'
 Plug 'ap/vim-css-color'
+Plug 'ayu-theme/ayu-vim' " or other package manager
 
 " Vim Wiki
 Plug 'vimwiki/vimwiki'
@@ -90,12 +91,19 @@ imap jk <Esc>
 
 syntax on
 set background=dark
-colorscheme gruvbox
 set number
 set relativenumber
 set tabstop=4
 set softtabstop=2 shiftwidth=2 expandtab
 set mouse=a
+
+" Colour scheme 
+set termguicolors     " enable true colors support
+" let ayucolor="light"  " for light version of theme
+" let ayucolor="mirage" " for mirage version of theme
+"let ayucolor="dark"   " for dark version of theme
+colorscheme gruvbox
+" colorscheme ayu
 
 " Status bar colourscheme
 let g:lightline = {
