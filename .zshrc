@@ -143,5 +143,6 @@ alias open="xdg-open"
 alias y2="cd ~/Documents/uni/Year2/"
 alias c="xclip"
 alias e="emacs -nw"
+alias ls="exa"
 export PATH="$HOME/.rbenv/bin:$PATH"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
