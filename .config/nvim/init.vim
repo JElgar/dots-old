@@ -102,6 +102,7 @@ set termguicolors     " enable true colors support
 " let ayucolor="light"  " for light version of theme
 " let ayucolor="mirage" " for mirage version of theme
 "let ayucolor="dark"   " for dark version of theme
+let gruvbox_contrast_dark="medium" " soft, medium or hard
 colorscheme gruvbox
 " colorscheme ayu
 
